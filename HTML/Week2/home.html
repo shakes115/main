@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US dir="ltr">
+<meta charset="UTF-8">
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body bgcolor="green">
+        <article lang="en">
+            <h1>This is the headline</h1>
+            <!--Divs and span section-->
+            <div class="box">
+                <p>This website will focus on birds.</p>
+                <p>It will include audio of birds and a video of birds.</p>
+                <p>Third paragraph. <span lang="es" class="bilingual">Esta oracion esta en espanol.
+                </span>Some of this is in another language</p>
+            </div>
+            <br>
+            <!--Figure tag so that we can add a caption to the image.-->
+            <figure>
+                <img src="..\Week2\DCTM_Penguin_UK_DK_AL526630_wkmzns.webp"
+                width="960" height="720" alt="Picture of a bird.">
+                <!--Caption for the image-->
+                <figcaption>A green bird taking flight.</figcaption>
+            </figure>
+            <br>
+            The audio player below will play the sounds of birds chirping:
+            <br>
+            <!--Audio player-->
+            <audio controls>
+                <source
+                    src="..\Week2\mixkit-birds-chirping-in-the-jungle-2433.wav">
+            </audio>
+            <br>
+            This video shows seafulls flying:
+            <br>
+            <!--Video player-->
+            <video controls>
+                <source src="..\Week2\mixkit-seagulls-flying-over-the-sky-at-sunset-9317-medium.mp4"
+                type="video/mp4">
+            </video>
+        </article>
+        <br><br>
+
+        <!--HTML form-->
+        <h2>Below is a form to fill out:</h2>
+        <form action="home.html" method="get">
+            <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+            </div>
+
+            <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email"
+                   placeholder="you@example.com">
+            </div>       
+
+            <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" 
+                   type="password">
+            </div>
+
+            <div>
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel">
+            </div>
+
+            <div>
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
