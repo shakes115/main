@@ -284,6 +284,9 @@ nav ul li a:hover::after{
 }
 .button.btn2{
     display: inline-block;
+    background: black;
+}
+.button.btn2:hover{
     background: #00ff5e;
 }
 .contact-right form{
@@ -377,9 +380,7 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-    .copyright{
-        font-size: 14px;
-    }
+    
 }
 #msg{
     color: #00ff5e;
