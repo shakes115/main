@@ -26,6 +26,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    background: black;
+    padding: -10px;
+    z-index: 1000;
 }
 
 .logo{
